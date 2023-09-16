@@ -553,7 +553,7 @@ ul li:hover {
         margin-left: 20px;
     }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 403px) {
     #first {
         margin: -350px 0px 10px 30px;
         color: rgba(118, 0, 148, 0.849);
