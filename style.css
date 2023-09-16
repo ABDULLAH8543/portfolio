@@ -557,7 +557,7 @@ ul li:hover {
     #first {
         margin: -350px 0px 10px 30px;
         color: rgba(118, 0, 148, 0.849);
-        font-size: 400px;
+        font-size: 40px;
         font-weight: 300px;
         font-family: 'Lobster', cursive;
     }
@@ -565,9 +565,9 @@ ul li:hover {
         font-size: 20px;
     }
 
-    /*  #uvone {
+     #uvone {
         margin-right: -50px;
-    }*/
+    }
 
     #btn{
         margin-left: 30px;
