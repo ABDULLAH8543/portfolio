@@ -54,11 +54,10 @@ body {
 }
 
 #sback {
-    background-color: #000000e4;
+    background-color: #00000078;
     padding: 10px;
-    position: sticky;
-    top: 0%;
 }
+
 #section {
     font-size: 50px;
     margin: 50px;
@@ -67,7 +66,6 @@ body {
     width: fit-content;
     font-family: 'Courier New', Courier, monospace;
     animation: border 2s infinite alternate;
-    color: #a800a8;
 }
 
 @keyframes border {
@@ -84,9 +82,6 @@ body {
     background-color: aliceblue;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    position: sticky;
-    top: -150%;
-    z-index: -1;
 }
 
 #sectionone img {
@@ -132,9 +127,6 @@ ul li:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
-    top: 0%;
-    z-index: -1;
 }
 
 #first {
@@ -146,7 +138,7 @@ ul li:hover {
 }
 
 #uvone {
-    right: 40px;
+    margin-right: 40px;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 10px;
 }
@@ -173,49 +165,36 @@ ul li:hover {
     background: rgb(178, 109, 208);
     background: linear-gradient(90deg, rgba(178, 109, 208, 1) 0%, rgba(136, 35, 139, 1) 41%, rgba(255, 34, 0, 0.9724264705882353) 91%);
 }
-.ser-p{
-    background-color: rgb(0, 0, 0);
-    position: sticky;
-    top: 0%;
-    margin-top: -90px;
-}
+
 #ser {
     font-weight: 900px;
     font-size: 40px;
     letter-spacing: 2px;
     font-family: 'Bilbo Swash Caps', cursive;
     font-family: 'Germania One', cursive;
-    color: #820982;
-    padding: 50px 0px;
 }
+
 #ser span {
     font-family: 'Alkalami', serif;
     font-family: 'Germania One', cursive;
     font-weight: 1000px;
     font-size: 50px;
-    color: rgb(255, 0, 255);
+    color: purple;
     position: relative;
     margin-left: 10px;
 }
-.paragraph{
-    background-color: #07080a;
-    margin-top: -50px;
-    color: white;
-}
+
 .paragraph p {
     margin-right: 100px;
     font-size: 20px;
 }
 
 .paragraph span {
-    color: #ff00ff;
+    color: #a800a8;
     margin-right: 100px;
     font-size: 20px;
 }
 
-.imgthree{
-    background-color: black;
-}
 .serimg {
     width: 30%;
     display: flex;
@@ -228,7 +207,7 @@ ul li:hover {
 
 .footer {
     height: 40vh;
-    background-color: rgb(104, 104, 104);
+    background-color: black;
 }
 
 #f1 {
@@ -535,9 +514,11 @@ ul li:hover {
         font-weight: 300px;
         font-family: 'Lobster', cursive;
     }
-#uvone{
-    margin-top: -100px;
-}
+
+    .img {
+        margin-left: -350px;
+        margin-top: 20px;
+    }
 
     #btn {
         width: 300px;
@@ -554,7 +535,7 @@ ul li:hover {
         background: linear-gradient(90deg, rgba(178, 109, 208, 1) 0%, rgba(136, 35, 139, 1) 41%, rgba(255, 34, 0, 0.9724264705882353) 91%);
     }
     #ser{
-        margin-right: -30px;
+        margin-left: 20px;
         font-size: 40px;
     }
     #ser span{
@@ -566,18 +547,15 @@ ul li:hover {
 }
 @media screen and (max-width: 412px){
     #uvone{
-        margin-right: -30px;
-        margin-top: -60px;
+        margin-right: 30px;
+        margin-top: 100px;
     }
     #btn{
         margin-top: 50px;
         margin-left: 20px;
     }
 }
-@media screen and (max-width: 403px) {
-      #uvone {
-        margin-right: -50px;
-    }
+@media screen and (max-width: 400px) {
     #first {
         margin: -350px 0px 10px 30px;
         color: rgba(118, 0, 148, 0.849);
@@ -585,17 +563,12 @@ ul li:hover {
         font-weight: 300px;
         font-family: 'Lobster', cursive;
     }
-    #second{
-        font-size: 20px;
+
+    #uvone {
+        margin-right: 40px;
     }
 
-    #btn{
-        margin-left: 30px;
-    }
   .ser-p{
-    margin-left: 30px;
-  }
-  .paragraph p{
     margin-left: 30px;
   }
 }
@@ -610,7 +583,7 @@ ul li:hover {
         font-family: 'Lobster', cursive;
     }
     #uvone{
-        margin-right: -20px;
+        margin-right: 20px;
     }
 
     .serimg {
@@ -618,9 +591,6 @@ ul li:hover {
     }
     #btn{
         margin-right: -30px;
-    }
-    #ser{
-        margin-left: -10px;
     }
 }
 
@@ -636,22 +606,10 @@ ul li:hover {
     .serimg {
         height: 50%;
     }
-    #ser{
-        margin-left: 10px;
-    }
-    #uvone{
-        margin: 0px 0px 50px 100px;
-    }
 }
 @media screen and (max-width: 376px) {
     .body2{
         height: 130%;
-    }
-    #uvone{
-        margin: 0px 0px 100px 100px;
-    }
-    #ser{
-        margin-left: 10px;
     }
 }
 @media screen and (max-width: 360px) {
