@@ -1,11 +1,15 @@
 let contact = document.getElementById("contact");
 let btn = document.getElementById("btn");
+let git = document.getElementById("git");
 
 contact.addEventListener("click", function () {
         window.location.assign("contact.html");
 });
 btn.addEventListener("click", function () {
         window.location.assign("contact.html");
+});
+git.addEventListener("click", function () {
+        window.location.assign("https://github.com/ABDULLAH8543");
 });
 let checkbtn = document.getElementById("check");
 let Languages = document.getElementById("Languages");
